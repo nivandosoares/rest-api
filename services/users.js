@@ -20,7 +20,7 @@ async function getMultiple(page = 1) {
 
 async function create(user) {
   const result = await db.query(
-    `INSERT INTO users 
+    `INSERT INTO user 
       (nome, empresa) 
       VALUES 
       (${user.nome}, ${user.empresa})`
