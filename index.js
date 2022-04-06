@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = process.env.PORT;
 const usersRouter = require("./routes/users");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -15,7 +15,7 @@ app.use((err, req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-  res.json({ message: "ok" });
+  res.json({ message: "express server running" });
 });
 
 app.listen(port, () => {
