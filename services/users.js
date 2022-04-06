@@ -23,7 +23,7 @@ async function create(user) {
     `INSERT INTO user 
       (nome, empresa) 
       VALUES 
-      (${user.nome}, ${user.empresa})`
+      ("${user.nome}", "${user.empresa}")`
   );
 
   let message = "Error in creating user";
