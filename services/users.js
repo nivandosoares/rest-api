@@ -39,7 +39,7 @@ async function create(user) {
 async function update(id, user) {
   const result = await db.query(
     `UPDATE user 
-      SET nome="${user.nome}", empresa=${user.empresa} 
+      SET nome="${user.nome}", empresa="${user.empresa}" 
       WHERE id=${id}`
   );
 
