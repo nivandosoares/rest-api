@@ -15,7 +15,10 @@ app.use((err, req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-  res.json({ message: "express server running" });
+  res.json({
+    message:
+      "express server running, also please visit my pesonal card :) --Nivando Soares",
+  });
 });
 
 app.listen(port, () => {
