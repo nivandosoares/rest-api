@@ -17,7 +17,7 @@ app.use((err, req, res, next) => {
 app.get("/", (req, res) => {
   res.json({
     message:
-      "express server running, also please visit my pesonal card :) --Nivando Soares",
+      "there's a express server successfully running here, please visit my github, you can see the endpoints docs there :) --github.com/nivandosoares",
   });
 });
 
