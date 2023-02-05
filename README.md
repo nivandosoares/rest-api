@@ -6,14 +6,14 @@
 
 Endpoints:
 
-GET : <code>https://restapi0.herokuapp.com/users</code> returns a array with all users on database
+GET : <code>https://mysqldb-hqnj.onrender.com/users</code> returns a array with all users on database
 
-POST : <code>https://restapi0.herokuapp.com/users</code> + a JSON object for example <code>{"nome":"teste de usuario", "empresa": "teste de empresa"}</code>
+POST : <code>https://mysqldb-hqnj.onrender.com/users</code> + a JSON object for example <code>{"nome":"teste de usuario", "empresa": "teste de empresa"}</code>
 
-PUT: <code>https://restapi0.herokuapp.com/users/id</code> + a JSON object with the data <code>{
+PUT: <code>https://mysqldb-hqnj.onrender.com/users/id</code> + a JSON object with the data <code>{
 	"nome": "Craque Neto",
 	"empresa": "Band"
 }</code>
 
 
-DELETE: <code>https://restapi0.herokuapp.com/users/id</code>
+DELETE: <code>https://mysqldb-hqnj.onrender.com/users/id</code>
